@@ -7,8 +7,8 @@ Sub ReadDataIntoWorksheet()
     Dim destPath As String
     
     ' Set file paths (update these paths!)
-    sourcePath = "C:\Users\chakdaniel2\Documents\dbs\EmployeeData.xlsx"
-    destPath = "C:\Users\chakdaniel2\Desktop\dmpVBA.xlsm"
+    sourcePath = "C:\Path\EmployeeData.xlsx"
+    destPath = "C:\Path\dmpVBA.xlsm"
     
     ' Open the source workbook
     Set sourceWB = Workbooks.Open(sourcePath)
